@@ -1,0 +1,212 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+#-------------------------------------------------------------------#
+- intent: faq/faq100
+  examples: |
+    - What are the different types of systems that the PM-KUSUM Scheme supports?
+    - What systems does the PM-KUSUM Scheme support?
+    - What are the different types of systems that the PM-KUSUM Scheme supports?
+    - who supports PMKUSUM?
+    - What are the various types of systems supported by the PM-KUSUM Scheme?
+    - What are the different sorts of frameworks bolstered by the PM-KUSUM Plot?
+    
+- intent: faq/faq101
+  examples: |
+    - What exactly is Component-A of the PM-KUSUM Scheme?
+    - component A PM-KUSUM?
+    - What is Component-A of the PM-KUSUM Scheme?
+    - PM-kusum A scheme?
+    - solar or other renewable energy based power plants under which component?
+
+- intent: faq/faq102
+  examples: |
+    - who comes under component a?
+    - which category is eligible under COmponent A of PMKUSUM?
+    - Who qualifies for the Component-A Scheme?
+    - Who may apply for the Component-A Scheme?
+    - In the Component-A Scheme, who is eligible?
+    - component a who?
+    
+- intent: faq/faq103
+  examples: |
+    - who buys current?
+    - Who might pay for the electricity generated?
+    - Out there that will buy the power generated?
+    - electricity buys?
+    - who get the electricity?
+
+- intent: faq/faq104
+  examples: |
+    - Can farmers lease their property to build a renewable energy power plant under Component-A?
+    - farmers lend land devop renewable under component a?
+    - farmers use land for collateral and get renewable source
+    - how farmers can et renewable energy undeer componeent a?
+    - how to get energy for fsrmers under component a?
+    
+- intent: faq/faq105
+  examples: |
+    - how do we get money help for component a?
+    - how can government help us financially?
+    - does government support poor farmers
+    - do farmers get any subsidy?
+    - how do poor farmers get benifitted?
+
+- intent: faq/faq106
+  examples: |
+    - who comes under component b?
+    -  which category is eligible under COmponent B of PMKUSUM?
+    - Who qualifies for the Component-B Scheme?
+    - Who may apply for the Component-B Scheme?
+    - In the Component-B Scheme, who is eligible?
+    - component B who?
+
+- intent: faq/faq107
+  examples: |
+    - who comes under component B?
+    - which category is eligible under COmponent b of PMKUSUM?
+    - Who qualifies for the Component-b Scheme?
+    - Who may apply for the Component-b Scheme?
+    - In the Component-b Scheme, who is eligible?
+    - component B who?
+
+
+- intent: faq/faq108
+  examples: |
+    - do farmers get any offer in installation of solar ppump?
+    - does governemrnt help us for getting pump?
+    - Would there be any financial assistance available for the installation of a solar pump?
+    - Will the government assist us in obtaining a motor?
+    - does government pay for solar pump?
+
+- intent: faq/faq109
+  examples: |
+    - who comes under component a?
+    - which category is eligible under COmponent a of PMKUSUM?
+    - Who qualifies for the Component-a Scheme?
+    - Who may apply for the Component-a Scheme?
+    - In the Component-a Scheme, who is eligible?
+    - component a who? eligibility 
+
+- intent: faq/faq110
+  examples: |
+    - Do farmers receive any offers for solarisation pump installation?
+    - Does the government assist us in obtaining a pump?
+    - Is financial support available for the installation of a solarisation pump?
+    - Will the government help us acquire a pump?
+    - Is the government paying for the solarisation pump?
+
+- intent: faq/faq111
+  examples: |
+    - Where might one I find out about the Plan?
+    - more info abt plan?
+    - what about the details of plan?
+    - website for the scheme?
+    - more details of the scheme?
+
+- intent: faq/faq112
+  examples: |
+    - who comes under component c?
+    - which category is eligible under COmponent c of PMKUSUM?
+    - Who qualifies for the Component-c Scheme?
+    - Who may apply for the Component-c Scheme?
+    - In the Component-c Scheme, who is eligible?
+    - component c who?
+
+- intent: faq/faq113
+  examples: |
+    - who comes under component c?
+    - which category is eligible under COmponent c of PMKUSUM?
+    - Who qualifies for the Component-c Scheme?
+    - Who may apply for the Component-c Scheme?
+    - In the Component-c Scheme, who is eligible?
+    - component c who?
